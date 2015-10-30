@@ -17,6 +17,15 @@ var config = {
         minify: true
       }
     },
+    "dist/vendor": {
+      includes: [
+        'aurelia/skeleton-plugin'
+      ],
+      options: {
+        inject: true,
+        minify: true
+      }
+    },
     "dist/aurelia": {
       includes: [
         'aurelia-bootstrapper',
